@@ -6,10 +6,11 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <div class="promo">
+    <section class="promo">
       <div class="container">
         <header class="header">
           <a href="#" class="header__logo">
@@ -50,42 +51,79 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="advantage">
+    </section>
+    <section class="advantage">
       <div class="container">
         <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
         <div class="advantage__items">
           <div class="advantage__item">
-            <img src="icons/cup.png" alt="cup" class="advantage__img">
+            <img src="icons/cup.png" alt="cup" class="advantage__img" />
             <div class="advantage__title">Делимся опытом</div>
-            <div class="advantage__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+            <div class="advantage__descr">
+              Наши сотрудники всегда готовы поделиться своим опытом, так как
+              сами бегают полумарафоны, переплыли Босфор, готовятся к
+              соревнованиям по триатлону!
+            </div>
           </div>
           <div class="advantage__item">
-            <img src="icons/heart.png" alt="heart" class="advantage__img">
+            <img src="icons/heart.png" alt="heart" class="advantage__img" />
             <div class="advantage__title">Заботимся о здоровье</div>
-            <div class="advantage__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+            <div class="advantage__descr">
+              Мы работаем для того, чтобы Ваши занятия спортом шли на пользу
+              Вашему здоровью и были в радость Вам и Вашим близким!
+            </div>
           </div>
           <div class="advantage__item">
-            <img src="icons/shoe.png" alt="shoe" class="advantage__img">
+            <img src="icons/shoe.png" alt="shoe" class="advantage__img" />
             <div class="advantage__title">Учим бегать</div>
-            <div class="advantage__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a></div>
+            <div class="advantage__descr">
+              Помогаем с обучением правильной технике бега! Дружим с крупнейшей
+              школой бега в России - <a href="#">I LOVE RUNNING.</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
       <div class="container">
-        <h2 class="title title_consultation">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
+        <h2 class="title title_consultation">
+          Получите бесплатную консультацию <br />
+          по подбору пульсометра
+        </h2>
         <div class="consultation__descr">
-          Просто заполните форму заявки <br> и мы перезвоним вам в течении 10
+          Просто заполните форму заявки <br />
+          и мы перезвоним вам в течении 10
         </div>
         <form class="feed-form" action="#">
-          <input required placeholder="Ваше имя" type="text" name="name" >
-          <input required placeholder="Ваше телефон" type="tel" name="phone" >
-          <input required placeholder="Ваше E-mail" type="email" name="email" >
-          <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
+          <input required placeholder="Ваше имя" type="text" name="name" />
+          <input required placeholder="Ваше телефон" type="tel" name="phone" />
+          <input required placeholder="Ваше E-mail" type="email" name="email" />
+          <button class="button button_consultation">
+            заказать кОНСУЛЬТАЦИЮ
+          </button>
         </form>
       </div>
-    </div>
+    </section>
+
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div><img src="img/slider_clock.jpg" alt="clock1"></div>
+          <div><img src="img/slider_clock2.jpg" alt="clock2"></div>
+          <div><img src="img/slider_clock3.jpg" alt="clock3"></div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
