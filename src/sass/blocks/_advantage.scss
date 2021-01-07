@@ -20,6 +20,14 @@
     margin: 0 auto;
     width: 70px;
     height: 70px;
+
+    &_heartBeat{
+      animation:heartbeat 1.5s ease infinite;
+
+      &:hover{
+        animation-play-state: paused;
+      }
+    }
   }
 
   &__title {
